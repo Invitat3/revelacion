@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación Revelación</title>
+
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- 🎈 Globos flotando -->
+    <div class="baloons">
+        <div class="balloon"></div>
+        <div class="balloon"></div>
+        <div class="balloon"></div>
+    </div>
+
+
+
+    <!-- 🎀 Portada -->
+    <section class="hero">
+        <h1 class="titulo">¡Estás Invitado!</h1>
+        <h1 class="h1-baby"> <span class="nino">Niño</span> o <span class="nina">Niña</span></h1>
+        <p class="sub">A nuestra revelación de bebé</p>
+        <p class="fecha">28 Julio 2026</p>
+    </section>
+
+    <!-- ⏳ Cuenta regresiva -->
+    <section>
+        <h2 class="seccion-titulo">Cuenta regresiva</h2>
+        <div class="countdown">
+            <div><span id="days">00</span><small>Días</small></div>
+            <div><span id="hours">00</span><small>Horas</small></div>
+            <div><span id="minutes">00</span><small>Min</small></div>
+            <div><span id="seconds">00</span><small>Seg</small></div>
+        </div>
+    </section>
+
+    <!-- ✨ Mensaje -->
+    <section class="tarjeta">
+        <p>
+            <strong>  La vida nos ha sorprendido con un regalo muy especial: la llegada de un bebé. Queremos compartir contigo este momento mágico. Acompáñanos en la revelación de su sexo.</strong>
+        </p>
+    </section>
+
+    <!-- 📍 Recepción -->
+    <section class="card">
+        <h3>Recepción</h3>
+        <div class="gift-icon">
+            <i class="fas fa-baby"></i>
+            <!-- Icono de bebé -->
+
+        </div>
+        <p><strong>28 de Julio 2024 - 4:00 PM</strong></p>
+        <p>C. Ignacio Ramírez 1880,<br> Jardines del Country,<br> Guadalajara, Jal.</p>
+        <a href="https://maps.google.com" target="_blank" class="btn">Cómo llegar</a>
+    </section>
+
+    <!-- 🎁 Mesa de regalos -->
+    <section class="regalos">
+        <!-- Icono de regalo arriba -->
+
+        <h3>Mesa de Regalos</h3>
+        <div class="gift-icon">
+            <i class="fas fa-gift"></i>
+        </div>
+        <p>Lluvia de sobres</p>
+        <a href="imagen/datos cuenta.pdf" download>Ver detalles</a>
+    </section>
+
+    <!-- 🎶 Música -->
+    <!-- Botón de música flotante -->
+    <!-- Música de fondo -->
+    <audio id="bg-music" loop>
+  <source src="musica/Carlos Rivera - Te Esperaba (Lyric Video) - CarlosRiveraVEVO.mp3" type="audio/mpeg">
+  Tu navegador no soporta audio.
+</audio>
+    <h4>Confirmar asitencia 👉</h4>
+    <!-- Botón de música flotante -->
+    <div id="music-btn">
+        <div class="bars">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </div>
+    <a href="https://wa.me/5213312345678" target="_blank" class="whatsapp-btn">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    </a>
+    <!-- 🎊 Confeti -->
+    <div class="confetti"></div>
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>

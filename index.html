@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta para vista previa en WhatsApp / Facebook -->
+    <meta property="og:title" content="Invitación Revelación" />
+    <meta property="og:description" content="🍼🎉 Acompáñanos a celebrar un día muy especial 🎉🍼" />
+    <meta property="og:image" content="https://invitat3.github.io/revelacion/imagen/portada.jpg" />
+    <meta property="og:url" content="https://invitat3.github.io/revelacion/" />
+    <meta property="og:type" content="website" />
+
+    <title>Invitación</title>
+    <style>
+        body,
+        html {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            /* -----------------------
+       ELIGE EL FONDO AQUÍ
+       ----------------------- */
+            background-color: #ffec7ff8;
+            /* gris de base */
+            /*  background-image: url('./imagen//cielo.jpg');*/
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            /* mantiene proporción */
+        }
+        
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+        /* Imagen central responsiva */
+        
+        .container img {
+            width: 50vw;
+            /* máximo 50% del ancho de la ventana */
+            max-width: 250px;
+            /* nunca más de 250px de ancho */
+            height: auto;
+            /* mantiene proporción */
+            border-radius: 10px;
+            margin-bottom: 5px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        /* Botón dorado degradado */
+        
+        .container button {
+            padding: 12px 35px;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            background: linear-gradient(to right, #283be9, #ff5e01);
+            transition: 0.3s;
+        }
+        
+        .container button:hover {
+            background: linear-gradient(to right, #1e48d1, #ff5e01);
+        }
+        /* Sección de invitación responsiva */
+        
+        .invitacion {
+            display: none;
+            margin-top: 20px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            max-width: 90vw;
+            /* se adapta a móviles */
+            text-align: center;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+        
+        .invitacion.show {
+            display: block;
+            opacity: 1;
+        }
+        
+        .boton-dorado {
+            display: inline-block;
+            padding: 12px 35px;
+            font-size: 12px;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            cursor: pointer;
+            background: linear-gradient(to right, #4da6ff, #ff6fcf);
+            transition: 0.3s;
+            text-align: center;
+        }
+        
+        .boton-dorado:hover {
+            background: linear-gradient(to right, #ff6fcf, #4da6ff);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Imagen central opcionalmente clicable -->
+        <a href="invitacion.html">
+            <img src="./imagen/elegir.gif" alt="prueba">
+            <img src="./imagen/pies.png" alt="Invitación">
+        </a>
+        <br>
+
+        <!-- Botón dorado que lleva a otra página -->
+        <a href="invitacion.html" class="boton-dorado">Ver invitación</a>
+
+        <!-- Ya no se necesita la sección invitación ni el script -->
+    </div>
+</body>
+
+</html
