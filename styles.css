@@ -5,11 +5,18 @@
     }
     
     body {
-        background: #ffec7f42;
+        margin: 0;
+        min-height: 100vh;
+        background-image: url('./imagen/triangle-mosaic.png');
+        background-repeat: repeat;
+        /* se repite para cubrir toda la pantalla */
+        background-size: auto;
+        /* no la estires, que se repita */
+        /*   background: #ffec7f42;
         font-family: 'Quicksand', sans-serif;
-        /*   background: linear-gradient(to bottom, #ff26c9d5, #7cd3ffa8);*/
+        background: linear-gradient(to bottom, #ffacfba2, #7cd3ffa8);
         color: #333;
-        overflow-x: hidden;
+        overflow-x: hidden;*/
     }
     
     .h1-baby {
